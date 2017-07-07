@@ -1,4 +1,4 @@
-<head>
+﻿<head>
 <link rel='stylesheet' type='text/css' href='css/teljesitmeny.css'>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -8,60 +8,47 @@
 
 <body>
 
-<table class='title'>
-<tr>
-<td>Személyautó teljesítményadó</td>
-</tr>
-</table>
+<div class='frame'>
 
-<table class='center'>
+<div class='title'>
+<h1>Teljesítményadó</h1>
+</div>
+
+<div class='center'>
 
 <form name='calculator' method='post' class='calc-form'>
-<tr>
-<td class='years'>
-Évjárat:
+
+<h4>Évjárat:
 <select name='year' id='year' class='date'>
 	###year-options###
 </select>
-</td>
-</tr>
+</h4>
 
-<tr>
-<td class='padding-top'>
+<h4>
 Teljesítmény:
 <input type='number' name='teljesitmeny' id='power' class='date' value='###teljesitmeny###'>
 <select name='or' class='or'>
 	###or-options###
 </select>
-</td>
-</tr>
+</h4>
 
-<tr id='error'>
-<td>###error###</td>
-</tr>
+<div id='error'>
+<h4>###error###</h4>
+</div>
 
-</table>
+</div>
 
-<table class='submit'>
+<div class='submit'>
 <input type='hidden' value='submitted' name='submitted'>
-<tr>
-<td><input type='submit' id='submit' value='Számol' class='form-submit'></td>
-</tr>
-</table>
+<input type='submit' id='submit' value='Számol' class='form-submit'>
+</div>
 
 </form>
 
-<table id='sum' class='###sum-visibility###'>	
+<div id='sum' class='###sum-visibility###'>	
+<h4>Éves teljesítményadó összege: ###sum### Ft</h4>
+</div>	
 
-<tr>
-<td>Éves teljesítményadó összege: ###sum### Ft</td>
-</tr>
 
-</table>	
-
-<table class='zero'>
-<tr>
-<td></td>
-</tr>
-</table>
+</div>
 </body>

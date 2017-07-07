@@ -1,30 +1,46 @@
+.calc-form
+{
+	margin : 0;
+}
+
+.frame
+{
+	width : 420px;
+	font-family : Verdana;
+	background-color : #EEEEEE;
+	border-radius : 5px 5px 5px 5px;
+	color: #01224a;
+	padding-bottom : 5px;
+}
+
 .title
 {
 	background-color : #005398;
-	font-family : Verdana;
-	width : 420px;
 	height : 50px; 
 	border-radius : 5px 5px 0px 0px; 
-	text-align : center;
+	text-align : center;	
+}
+
+.title h1
+{
 	font-weight: bold; 
 	font-size : 20px;
 	color : white;
-}
-
-.zero
-{
-	background-color : #EEEEEE; 
-	width : 420px; 
-	border-radius : 0px 0px 5px 5px;
+	margin : 0;
+	padding-top : 12px;
 }
 
 .center
 {
-	background-color : #EEEEEE;
-	color: #01224a;
-	font-family : Verdana;
-	width : 420px;
 	padding : 15px; 
+	padding-top : 0;
+}
+
+.center h4
+{
+	font-weight : normal;
+	margin-top : 10px;
+	margin-bottom : 0;
 }
 
 .or
@@ -37,17 +53,8 @@
 	width : 70px;
 }
 
-.padding-top
-{
-	padding-top : 15px;
-}
-
 .submit
 {
-	background-color : #EEEEEE;
-	color: #01224a;
-	font-family : Verdana;
-	width : 420px;
 	text-align : center;
 }
 
@@ -64,18 +71,28 @@
 
 #sum
 {
-	background-color : #EEEEEE; 
-	color: #01224a; 
-	font-family : Verdana; 
+
 	text-align : center;
-	width : 420px; 
 	padding : 15px;
 	padding-top : 10px; 
-	padding-bottom : 0px;
+	padding-bottom : 5px;
+}
+
+#sum h4
+{
+	font-weight : normal;
+	text-align : center;
+	margin : 0;
 }
 
 #error
 {
 	color: red;
 	text-align : center;
+}
+
+#error h4
+{
+	font-weight : normal;
+	margin : 0px;
 }
